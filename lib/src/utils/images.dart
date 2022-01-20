@@ -1,6 +1,6 @@
 enum AssetImages { tinder, google }
 
-const assetPath = 'modules/second_class/assets';
+const assetPath = 'packages/second_class/assets';
 
 extension AssetImagesPath on AssetImages {
   String get path {
