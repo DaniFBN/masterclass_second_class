@@ -5,5 +5,6 @@ Aula sobre leitura de mockup, desenvolvida as telas do Tinder e do Expenses.
 
 ---
 
-<img src="imgs/tinder.jpeg" alt="Tinder" style="width: 300px; padding: 5px;"/>
-<img src="imgs/expenses.jpeg" alt="expenses"  style="width: 300px; padding: 5px;"/>
+Tinder                     |  Expenses
+:-------------------------:|:-------------------------:
+![Tinder page](.resources/tinder.jpeg) | ![Expenses page](.resources/expenses.jpeg)
