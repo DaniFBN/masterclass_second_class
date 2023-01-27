@@ -9,14 +9,14 @@ import 'widgets/news_card_widget.dart';
 import 'widgets/tip_card_widget.dart';
 import 'widgets/title_section_widget.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class NubankPage extends StatefulWidget {
+  const NubankPage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<NubankPage> createState() => _NubankPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _NubankPageState extends State<NubankPage> {
   bool showInformation = true;
 
   void toggleShowInformation() {
