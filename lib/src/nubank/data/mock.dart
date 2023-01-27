@@ -15,19 +15,19 @@ class AppMock {
   static const newsImage =
       'https://blog.twitch.tv/assets/uploads/03-glitch.jpg';
   static const profileButtons = [
-    ProfileButton(title: 'Área Pix', icon: Icons.pix),
+    ProfileButton(title: 'Área Pix', icon: Icons.payment),
     ProfileButton(title: 'Pagar', icon: Icons.qr_code),
     ProfileButton(
       title: 'Pegar emprestado',
-      icon: Icons.handshake_rounded,
+      icon: Icons.payment,
       specialText: loanLimitFormatted,
     ),
-    ProfileButton(title: 'Transferir', icon: Icons.handshake_rounded),
+    ProfileButton(title: 'Transferir', icon: Icons.payment),
     ProfileButton(
       title: 'Recarga de celular',
       icon: Icons.phone_android_rounded,
     ),
-    ProfileButton(title: 'Depositar', icon: Icons.handshake_rounded),
+    ProfileButton(title: 'Depositar', icon: Icons.payment),
     ProfileButton(title: 'Transferir Internac.', icon: Icons.language),
     ProfileButton(title: 'Doação', icon: Icons.favorite),
     ProfileButton(title: 'Cobrar', icon: Icons.attach_money_rounded),

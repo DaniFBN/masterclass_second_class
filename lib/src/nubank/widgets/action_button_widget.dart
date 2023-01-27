@@ -49,7 +49,7 @@ class ActionButtonWidget extends StatelessWidget {
                         ),
                         child: Text(
                           showInformation ? specialText! : '●●●●',
-                          style: theme.primaryTextTheme.labelMedium,
+                          style: theme.primaryTextTheme.bodyText2,
                         ),
                       ),
                     )
@@ -60,7 +60,7 @@ class ActionButtonWidget extends StatelessWidget {
             Text(
               title,
               textAlign: TextAlign.center,
-              style: theme.textTheme.labelMedium,
+              style: theme.textTheme.bodyText2,
             ),
           ],
         ),

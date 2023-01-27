@@ -47,12 +47,12 @@ class NewsCardWidget extends StatelessWidget {
                 children: [
                   Text(
                     title,
-                    style: theme.textTheme.labelMedium,
+                    style: theme.textTheme.bodyText2,
                   ),
                   const SizedBox(height: 8),
                   Text(
                     content,
-                    style: theme.textTheme.bodyMedium,
+                    style: theme.textTheme.subtitle1,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),

@@ -18,26 +18,26 @@ class AppTheme {
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
         primary: AppColors.cardColor,
         onPrimary: Colors.black,
-        textStyle: AppTextStyles.labelMedium,
+        textStyle: AppTextStyles.bodyText2,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
         ),
       ),
     ),
     textTheme: const TextTheme(
-      titleMedium: AppTextStyles.titleMedium,
-      labelMedium: AppTextStyles.labelMedium,
-      bodyMedium: AppTextStyles.bodyMedium,
-      bodySmall: AppTextStyles.bodySmall,
+      bodyText1: AppTextStyles.bodyText1,
+      bodyText2: AppTextStyles.bodyText2,
+      subtitle1: AppTextStyles.subtitle1,
+      overline: AppTextStyles.overline,
     ),
     primaryTextTheme: TextTheme(
-      titleMedium: AppTextStyles.titleMedium.copyWith(
+      bodyText1: AppTextStyles.bodyText1.copyWith(
         color: AppColors.white,
       ),
-      labelMedium: AppTextStyles.labelMedium.copyWith(
+      bodyText2: AppTextStyles.bodyText2.copyWith(
         color: AppColors.white,
       ),
-      bodySmall: AppTextStyles.bodySmall.copyWith(
+      overline: AppTextStyles.overline.copyWith(
         color: AppColors.white,
       ),
     ),

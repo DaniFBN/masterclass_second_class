@@ -23,7 +23,7 @@ class RoundedButtonWidget extends StatelessWidget {
       ),
       child: Text(
         label,
-        style: theme.primaryTextTheme.bodySmall?.copyWith(
+        style: theme.primaryTextTheme.overline?.copyWith(
           letterSpacing: 0.5,
         ),
       ),

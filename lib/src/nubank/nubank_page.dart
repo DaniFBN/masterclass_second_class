@@ -57,7 +57,7 @@ class _NubankPageState extends State<NubankPage> {
                       const SizedBox(height: 8),
                       Text(
                         showInformation ? AppMock.accountValue : '●●●●',
-                        style: theme.textTheme.titleMedium?.copyWith(
+                        style: theme.textTheme.bodyText1?.copyWith(
                           fontWeight: FontWeight.w600,
                         ),
                       ),
@@ -130,7 +130,7 @@ class _NubankPageState extends State<NubankPage> {
                       const SizedBox(height: 8),
                       Text(
                         'Fatura atual',
-                        style: theme.textTheme.labelMedium?.copyWith(
+                        style: theme.textTheme.bodyText2?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: theme.hintColor,
                         ),
@@ -138,14 +138,14 @@ class _NubankPageState extends State<NubankPage> {
                       const SizedBox(height: 8),
                       Text(
                         AppMock.invoiceValue,
-                        style: theme.textTheme.titleLarge?.copyWith(
+                        style: theme.textTheme.bodyText1?.copyWith(
                           fontWeight: FontWeight.w600,
                         ),
                       ),
                       const SizedBox(height: 4),
                       Text(
                         'Limite disponível de ${AppMock.creditLimit}',
-                        style: theme.textTheme.bodySmall,
+                        style: theme.textTheme.overline,
                       ),
                       const SizedBox(height: 16),
                       const ButtonWidget(
@@ -172,14 +172,14 @@ class _NubankPageState extends State<NubankPage> {
                       const SizedBox(height: 8),
                       Text(
                         'Valor disponível de até',
-                        style: theme.textTheme.labelMedium?.copyWith(
+                        style: theme.textTheme.bodyText2?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: theme.hintColor,
                         ),
                       ),
                       Text(
                         AppMock.loanLimit,
-                        style: theme.textTheme.labelMedium?.copyWith(
+                        style: theme.textTheme.bodyText2?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: theme.hintColor,
                         ),
@@ -205,7 +205,7 @@ class _NubankPageState extends State<NubankPage> {
                       const SizedBox(height: 8),
                       Text(
                         'Proteçao para você cuidar do que importa',
-                        style: theme.textTheme.labelMedium?.copyWith(
+                        style: theme.textTheme.bodyText2?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: theme.hintColor,
                         ),
@@ -242,7 +242,7 @@ class _NubankPageState extends State<NubankPage> {
                       const SizedBox(height: 8),
                       Text(
                         'Vantagens exclusivas das nossas marcas preferidas',
-                        style: theme.textTheme.labelMedium?.copyWith(
+                        style: theme.textTheme.bodyText2?.copyWith(
                           fontWeight: FontWeight.w600,
                           color: theme.hintColor,
                         ),

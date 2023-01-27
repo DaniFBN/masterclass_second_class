@@ -31,7 +31,7 @@ class TipCardWidget extends StatelessWidget {
                 children: tip.tips.map<InlineSpan>((tip) {
                   return TextSpan(
                     text: tip.text,
-                    style: theme.textTheme.labelMedium?.copyWith(
+                    style: theme.textTheme.bodyText2?.copyWith(
                       color: tip.isSpecial ? theme.primaryColor : null,
                     ),
                   );

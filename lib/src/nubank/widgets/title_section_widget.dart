@@ -22,7 +22,7 @@ class TitleSectionWidget extends StatelessWidget {
       child: Row(
         children: [
           Expanded(
-            child: Text(title, style: theme.textTheme.titleMedium),
+            child: Text(title, style: theme.textTheme.bodyText1),
           ),
           if (showArrow)
             const Icon(
